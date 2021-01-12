@@ -73,5 +73,5 @@ class FileSystem():
         response_hash = requests.post("https://ipfs.infura.io:5001/api/v0/add", files = file)
         request = response_hash.json()
         hash = request["Hash"]
-        output = url + hash
+        output = url + hash 
         return output
