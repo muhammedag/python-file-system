@@ -21,7 +21,6 @@ The file upload function uploads your files to the ipfs system. Do not forget th
 
 ## Installation
 
-+ pip install git
 + git clone https://github.com/muhammedag/python-file-system/
 
 
